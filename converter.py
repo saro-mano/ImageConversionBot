@@ -7,7 +7,7 @@ from PIL import Image
 import logging
 
 
-token = "953762364:AAGOW7huFfCQTVHAzCATd_VfNkzHfC1-4pk"
+token = "token" #insert API token here
 
 bot = telegram.Bot(token = token)
 updater = Updater(token = token, use_context = True)
